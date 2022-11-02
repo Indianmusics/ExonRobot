@@ -5,14 +5,14 @@ load_dotenv()
 que = {}
 admins = {}
 
-API_ID = int(getenv("API_ID", "22069537"))
-API_HASH = getenv("API_HASH", "cd11171a4e13d4efe0fbb6b69ac0eb6f")
-BOT_TOKEN = getenv("BOT_TOKEN", "5648646760:AAH9THfRs4mDBMkXSH_mmgCTW53bX6AaSAg")
-BOT_NAME = getenv("BOT_NAME","Nancy")
-BOT_USERNAME = getenv("BOT_USERNAME", "NancyXRobot")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "StarXAssistance")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "gumnaam_aashiq_sayar")
-CHANNEL_UPDATES = getenv("CHANNEL_UPDATES", "help_bot_technology")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_NAME = getenv("BOT_NAME","")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+CHANNEL_UPDATES = getenv("CHANNEL_UPDATES", "")
 
 START_IMG = getenv("START_IMG", "https://te.legra.ph/file/cb2763a4fd9af49b26cb0.jpg")
 PING_IMG = getenv("PING_IMG", "https://te.legra.ph/file/262e434f76a5f2e414178.jpg")
